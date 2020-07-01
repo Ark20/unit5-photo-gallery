@@ -1,12 +1,21 @@
 body {
   font-family: 'Source Code Pro', monospace;
+  font-weight: 500;
 }
+
+a {
+  color: white;
+}
+
+/* Image Layout Styles */
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
   width: 60%;
+  flex-wrap: wrap;
 }
 
 .item {
@@ -14,7 +23,7 @@ body {
   align-self: center;
 }
 
-.lg-sub-html{
+.lg-sub-html {
   display: flex;
   align-self: center;
   margin: auto;
@@ -23,6 +32,13 @@ body {
   line-height: 1.6em;
 }
 
-a {
-  color: white;
+/* Search Box Styles */
+
+#search {
+  display: flex;
+  width: 40%;
+  padding: 15px 0 15px 30px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  font-weight: 700;
 }
