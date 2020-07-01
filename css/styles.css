@@ -1,0 +1,28 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+}
+
+.item {
+  padding: 30px 30px;
+  align-self: center;
+}
+
+.lg-sub-html{
+  display: flex;
+  align-self: center;
+  margin: auto;
+  width: 600px;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+a {
+  color: white;
+}
