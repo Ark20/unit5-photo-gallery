@@ -1,5 +1,5 @@
 $('#search').hideseek({
-  attribute: 'data-alt',
+  attribute: 'data-sub-html',
 });
 
 const $item = $('img');
